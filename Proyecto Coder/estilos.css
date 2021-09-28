@@ -1,0 +1,204 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #d7dffc 0%, white 0%, lightgray 84%);
+}
+
+.header__contenido {
+  position: relative;
+  z-index: 100;
+}
+
+.header__contenido .contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+.header__contenido .logo {
+  font-weight: 900;
+  font-size: 50px;
+  margin: 10px;
+  border: solid;
+  font-family: cambria;
+}
+
+.header__contenido .color {
+  color: #f80000;
+  text-align: center;
+}
+
+.header__contenido .imgLogo {
+  max-width: 85px;
+}
+
+.slider {
+  padding-top: 50px;
+  max-height: 700px;
+}
+
+.slider .sliderImg {
+  max-height: 600px;
+  max-width: 100rem;
+}
+
+.galeria__productos {
+  margin: 20px;
+  margin-bottom: 200px;
+}
+
+.galeria__productos h1 {
+  font-size: 40px;
+  text-align: center;
+  color: red;
+}
+
+.galeria__productos .contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+.galeria__productos .titulo__galeria {
+  font-size: 50px;
+  border: solid;
+}
+
+.galeria__productos .productos img {
+  border-radius: 50%;
+}
+
+.banner {
+  height: 50vh;
+  color: rgba(156, 152, 152, 0.555);
+  position: relative;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+.banner h1 {
+  font-size: 28px;
+}
+
+.banner .banner__descripcion {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: black;
+}
+
+.banner .contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+.banner2 {
+  background-color: brown;
+  height: 50vh;
+  margin-top: -60px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner2 .banner2__descripcion {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.banner2 .button__banner2 {
+  background: #7a3030;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.banner2 .button__banner2:hover {
+  color: blanchedalmond;
+  border: 2px solid #080808;
+  background: black;
+}
+
+.banner2 .contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+.footer {
+  background: #4b4a40;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #4b4a40), to(#040404));
+  background: linear-gradient(180deg, #4b4a40 2%, #040404 100%);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.footer .contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+.form__contactos {
+  color: black;
+  padding: 50px 200px 0px 200px;
+}
+
+.container {
+  margin-top: 110px !important;
+}
+
+.card {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.text1 {
+  font-size: 13px;
+  color: #cbcbcb;
+}
+
+.info {
+  line-height: 17px;
+}
+
+.cost span {
+  color: brown;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.shoe {
+  background-color: #f80000;
+}
+/*# sourceMappingURL=estilos.css.map */

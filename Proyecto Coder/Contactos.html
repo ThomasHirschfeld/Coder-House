@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+<body class="banner">
+  <header>
+    <div class="contenedor">
+    <div class="header__contenido">
+    <p class="logo color">GRAPHIC SEKKEI DESIGN</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo nuevo0.png" alt="" class="imgLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Contactos.html">Contactos</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Productos.html">Ver todos</a></li>
+                <li><a class="dropdown-item" href="Remeras.html">Remeras</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Producto</a></li>
+                <li><a class="dropdown-item" href="#">Producto</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+    </div>
+  </header>
+    <main>
+      <div class="text-center">
+        <img src="img/sekkei.jpg" class="rounded" alt="..." width="300px">
+      </div>
+      <form id="form1" method="post" action="enviar.php">
+        <label>Nombre Completo</label>
+        <input type="text" name="nombre" class="form-control" required>
+
+        <label>Edad</label>
+        <input type="number" name="edad" class="form-control" required>
+        
+        <label>Email</label>
+        <input type="text" name="Email" class="form-control" required>
+        <label>Direccíon</label>
+        <input type="text" name="Direccíon" class="form-control">
+        <button type="submit" class="btn btn-danger">Enviar</button>
+      </form>
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <p>instagram</p>
+            <p>Whatsapp</p>
+            <p>Facebook</p>
+        </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
